@@ -73,11 +73,11 @@ function sleep(ms) {
 
 async function blStand() {
     if (bl["turnsOver"]) {
-        bl["isStand"] = true;
         while (BOT["score"] < 18) {
             showCard(BOT)
             await sleep(500)
         };
+        bl["isStand"] = true;
         computeWinner();
     }
 }
