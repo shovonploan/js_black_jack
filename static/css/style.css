@@ -1,0 +1,48 @@
+.container-1 {
+  border: 1px dashed red;
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+}
+.container-1 h1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.bl-row1 {
+  background: url("/static/img/table.png") center no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+.bl-row1 div {
+  padding: 10px;
+  flex: 1;
+  text-align: center;
+  height: 350px;
+}
+.bl-row1 img {
+  widows: 25px;
+  padding: 10px;
+  height: 150px;
+  width: 94px;
+}
+.bl-row1,
+.bl-row2,
+.bl-row3 {
+  display: flex;
+  padding: 5px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.bl-row2,
+.bl-row3 {
+  background: url("/static/img/table.png") bottom;
+}
+.bl-row3 tr th {
+  text-align: center;
+  color: #ffffff;
+  border: 1px solid white;
+  padding: 5px;
+}
