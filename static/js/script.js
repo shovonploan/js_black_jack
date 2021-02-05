@@ -77,8 +77,8 @@ async function blStand() {
             showCard(BOT)
             await sleep(500)
         };
-        bl["isStand"] = true;
         computeWinner();
+        bl["isStand"] = true;
     }
 }
 
