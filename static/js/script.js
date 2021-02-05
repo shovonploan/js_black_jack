@@ -34,9 +34,9 @@ let bl = {
 const YOU = bl["you"];
 const BOT = bl["bot"];
 const SOUNDS = [
-    new Audio("/static/sounds/swish.m4a"),
-    new Audio("/static/sounds/cash.mp3"),
-    new Audio("/static/sounds/aww.mp3"),
+    new Audio("swish.m4a"),
+    new Audio("cash.mp3"),
+    new Audio("aww.mp3"),
 ];
 
 document.querySelector("#bl-hit-btn").addEventListener("click", blHit);

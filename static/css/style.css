@@ -3,6 +3,10 @@
   width: 95%;
   margin: 0 auto;
   text-align: center;
+  background: url("table.png");
+  /* background-image: url("/static/img/table.png"); */
+  /* background: url("/static/img/table.png") center no-repeat; */
+  /* background-size: cover; */
 }
 .container-1 h1 {
   display: flex;
@@ -11,8 +15,6 @@
   justify-content: space-around;
 }
 .bl-row1 {
-  background: url("/static/img/table.png") center no-repeat;
-  background-size: cover;
   color: #ffffff;
 }
 .bl-row1 div {
@@ -36,10 +38,7 @@
   flex-direction: row;
   justify-content: space-around;
 }
-.bl-row2,
-.bl-row3 {
-  background: url("/static/img/table.png") bottom;
-}
+
 .bl-row3 tr th {
   text-align: center;
   color: #ffffff;
