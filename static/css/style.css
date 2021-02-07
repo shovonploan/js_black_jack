@@ -13,6 +13,7 @@
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
+  color: #f70606;
 }
 .bl-row1 {
   color: #ffffff;
